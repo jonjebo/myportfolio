@@ -3,6 +3,7 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
+import resumePhoto from '../assets/profile1.JPG'
 
 class Resume extends Component {
   render() {
@@ -12,14 +13,15 @@ class Resume extends Component {
           <Cell className="resumeLeftCol"col={4}>
             <div style={{textAlign: 'center'}}>
               <img
-                src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
-                alt="avatar"
-                style={{height: '200px'}}
+                src={resumePhoto}
+                alt="resume profile photo"
+                style={{height: '590px'}}
+                className="resumePhoto"
               />
             </div>
 
             <h2 style={{paddingTop: '2em'}}>Jonathan Dangelo</h2>
-            <h4 style={{color: 'grey'}}>Programmer</h4>
+            <h4 style={{color: '#696969'}}>Software Engineer</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <p>
               Fill in some information here for my resume
@@ -30,7 +32,7 @@ class Resume extends Component {
             <h5>Phone</h5>
             <p>(949) 554-9676</p>
             <h5>Email</h5>
-            <p>jond4ng3lo@gmail.com</p>
+            <p>jon@jonathandangelo.me</p>
             <h5>Web</h5>
             <p>jonathandangelo.me</p>
             <p>highbrowcreations.com</p>

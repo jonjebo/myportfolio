@@ -135,4 +135,10 @@
 
 .resumeLeftCol {
   font-family: 'Raleway', sans-serif;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.resumeLeftCol p {
+  font-size: 18px;
 }
