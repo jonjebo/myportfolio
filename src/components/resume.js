@@ -3,7 +3,7 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
-import resumePhoto from '../assets/profile1.JPG'
+import resumePhoto from '../assets/preg1.jpg'
 
 class Resume extends Component {
   render() {
@@ -15,18 +15,17 @@ class Resume extends Component {
               <img
                 src={resumePhoto}
                 alt="resume profile photo"
-                style={{height: '590px'}}
-                className="resumePhoto"
+                style={{height: '590px', borderRadius: '10px'}}
               />
             </div>
 
             <h2 style={{paddingTop: '2em'}}>Jonathan Dangelo</h2>
             <h4 style={{color: '#696969'}}>Software Engineer</h4>
-            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+            <hr style={{borderTop: '3px dotted #833fb2', width: '100%'}}/>
             <p>
               Fill in some information here for my resume
             </p>
-            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+            <hr style={{borderTop: '3px dotted #833fb2', width: '100%'}}/>
             <h5>Address</h5>
             <p>1 Hacker Way Menlo Park, 94025</p>
             <h5>Phone</h5>
@@ -53,7 +52,7 @@ class Resume extends Component {
               schoolName="Colorado State University"
               schoolDescription="Put in some information about shcool here"
             />
-            <hr style={{borderTop: '3px solid #e22947'}}/>
+            <hr style={{borderTop: '3px dotted white'}}/>
             <h2>Experience</h2>
           <Experience
             startYear={2005}
@@ -96,7 +95,7 @@ class Resume extends Component {
             jobName="First Job"
             jobDescription="Do some job descriptions"
           />
-          <hr style={{borderTop: '3px solid #e22947'}}/>
+          <hr style={{borderTop: '3px dotted white'}}/>
           <h2>Skills</h2>
           <Skills 
             skill="JavaScript: "
