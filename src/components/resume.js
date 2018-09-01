@@ -31,7 +31,7 @@ class Resume extends Component {
             <h5>Phone</h5>
             <p>(949) 554-9676</p>
             <h5>Email</h5>
-            <p>jon@jonathandangelo.me</p>
+            <p>contact@jonathandangelo.me</p>
             <h5>Web</h5>
             <p>jonathandangelo.me</p>
             <p>highbrowcreations.com</p>

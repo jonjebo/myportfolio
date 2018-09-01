@@ -36,7 +36,7 @@ class Contact extends Component {
                     <a href="google.com" target="_blank" rel="noopener noreferrer">
                       <i className="fa fa-envelope-square" aria-hidden="true"/>
                     </a>
-                    jon@jonathandangelo.me
+                    contact@jonathandangelo.me
                   </ListItemContent>
                 </ListItem>
 
