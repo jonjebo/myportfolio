@@ -15,7 +15,7 @@ class Landing extends Component {
             />
           </Cell>
           <Cell col={12}>
-            <div className="bannerBox">
+            <div className="bannerText">
               <h1> Full Stack Web Developer </h1>
 
               <hr/>
