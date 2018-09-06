@@ -12,7 +12,7 @@ class Contact extends Component {
             <img 
               src={contactLogo}
               alt="myPhoto"
-              style={{maxWidth: '80%', height: 'auto', borderRadius: '10px'}}
+              style={{height: '500px', borderRadius: '10px'}}
             />          
             <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>
               Have some information about the contact page go here.

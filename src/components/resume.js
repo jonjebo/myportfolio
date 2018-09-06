@@ -14,8 +14,8 @@ class Resume extends Component {
             <div style={{textAlign: 'center'}}>
               <img
                 src={resumePhoto}
-                alt="resume profile"
-                style={{maxWidth: '100%', height: 'auto', borderRadius: '10px'}}
+                alt="resume profile photo"
+                style={{height: '590px', borderRadius: '10px'}}
               />
             </div>
 
@@ -98,7 +98,6 @@ class Resume extends Component {
           <hr style={{borderTop: '3px dotted white'}}/>
           <h2>Skills</h2>
           <Skills 
-          // eslint-disable-next-line
             skill="JavaScript: "
             progress={60}
             percentage=""
@@ -119,13 +118,11 @@ class Resume extends Component {
             percentage=""
           />
           <Skills 
-          // eslint-disable-next-line
             skill="JavaScript: "
             progress={30}
             percentage=""
           />
           <Skills 
-          // eslint-disable-next-line
             skill="JavaScript: "
             progress={30}
             percentage=""

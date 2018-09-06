@@ -25,21 +25,16 @@
 
 
 .profileImage{
-  height: auto;
-  max-width: 40%;
+  height: 600px;
   border-radius: 10px;
   display: flex;
-  flex-direction: column;
   margin: auto;
-  resize: linear;
 }
 
 .bannerBox {
   background-color: black ;
   opacity: .8;
   width: 75%;
-  display: flex;
-  flex-direction: column;
   margin: auto;
   border-radius: 10px;
 }
@@ -91,8 +86,6 @@
   margin: auto;
   background: white;
   position: absolute;
-  display: flex;
-  flex-flow: column;
   width: 100%;
   height: 100%;
   justify-content: center;
@@ -102,7 +95,6 @@
 .contactGrid {
   text-align: center;
   justify-content: center;
-  position: relative;
   width: 80%;
   background:  #27221F;
   color:white;
