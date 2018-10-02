@@ -13,7 +13,8 @@ class App extends Component {
         title={<Link style={{textDecoration: 'none', color: 'white', fontFamily:'Raleway' }} to="/" >My Portfolio</Link>} scroll>
             <Navigation>
                 <Link to="/resume">Resume</Link>
-                <Link to="/aboutme">About Me</Link>
+                {/*Disable for now*/}
+                {/* <Link to="/aboutme">About Me</Link> */}
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
             </Navigation>

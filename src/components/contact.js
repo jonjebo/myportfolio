@@ -12,10 +12,10 @@ class Contact extends Component {
             <img 
               src={contactLogo}
               alt="myPhoto"
-              style={{height: '500px', borderRadius: '10px'}}
+              style={{maxHeight: '75%', maxWidth: '75%', borderRadius: '10px'}}
             />          
-            <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>
-              Have some information about the contact page go here.
+            <p style={{width: '70%', margin: 'auto', paddingTop: '1em'}}>
+             Contact me for any service that you may need and I will get back to you shortly. Freelance work allows me to enjoy my family and travel at the same time.
             </p>
           </Cell>
           <Cell col={6}>

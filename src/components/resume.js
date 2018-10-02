@@ -3,7 +3,7 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
-import resumePhoto from '../assets/preg1.jpg'
+import resumePhoto from '../assets/hiking.JPG'
 
 class Resume extends Component {
   render() {
@@ -15,7 +15,7 @@ class Resume extends Component {
               <img
                 src={resumePhoto}
                 alt="resume profile photo"
-                style={{height: '590px', borderRadius: '10px'}}
+                style={{maxHeight: '100%', maxWidth: '100%', borderRadius: '10px'}}
               />
             </div>
 
@@ -23,7 +23,9 @@ class Resume extends Component {
             <h4 style={{color: '#696969'}}>Software Engineer</h4>
             <hr style={{borderTop: '3px dotted #833fb2', width: '100%'}}/>
             <p>
-              Fill in some information here for my resume
+              I am a software engineer that spends my time learning as much about React to develop very immersive webpages for clients and myself. 
+              While learning React, I am also teaching myself Python and Swift so that I can build iPhone apps and machine learning software to 
+              suit the needs of myself and others. 
             </p>
             <hr style={{borderTop: '3px dotted #833fb2', width: '100%'}}/>
             <h5>Address</h5>
