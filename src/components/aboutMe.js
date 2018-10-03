@@ -12,10 +12,10 @@ class About extends Component {
             <img 
               src={aboutLogo}
               alt="myPhoto"
-              style={{height: '500px', borderRadius: '10px'}}
+              style={{maxHeight: '90%', maxWidth: '90%', borderRadius: '10px'}}
             />          
             <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>
-              Have some information about the contact page go here.
+              about me page
             </p>
           </Cell>
           <Cell col={6}>

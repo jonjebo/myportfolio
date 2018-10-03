@@ -13,9 +13,6 @@ class Landing extends Component {
               alt="jonImage"
               className="profileImage"
             />
-            <h1>Add some intro text here to describe myself and add in space</h1>
-            <h1>Add some intro text here to describe myself and add in space</h1>
-            <h1>Add some intro text here to describe myself and add in space</h1>
           </Cell>
           <Cell col={12}>
             <div className="bannerText">

@@ -39,26 +39,27 @@
 }
 
 .bannerText h1 {
-  font-size: 66px;
+  font-size: 4vw;
   color: white;
   margin: auto;
   font-family: 'Raleway', sans-serif;
 }
 
 .bannerText hr {
-  border-top: 5px dotted white;
+  border-top: .25vw dotted white;
   max-width: 50%;
   margin: auto;
 }
 
 .bannerText p {
   color: white;
-  font-size: 20px;
+  font-size: 1.5vw;
   padding: 1em;
 }
 
 .socialLinks {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   max-width: 60%;
   margin: auto;
@@ -66,7 +67,7 @@
 
 .socialLinks i {
   color: white;
-  font-size: 5em;
+  font-size: 5vw;
   padding: 8px;
 }
 
