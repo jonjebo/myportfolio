@@ -5,7 +5,7 @@ import mainLogo from '../assets/profile1.JPG';
 class Landing extends Component {
   render() {
     return(
-      <div style={{width: '100%', margin: 'auto'}}>
+      <div name="viewport" content="width=device-width, initial-scale=1" style={{margin: 'auto'}}>
         <Grid className="landing-grid">
           <Cell col={12} style={{height: '80%'}}>
             <img
@@ -13,9 +13,6 @@ class Landing extends Component {
               alt="jonImage"
               className="profileImage"
             />
-            <h1>Add some intro text here to describe myself and add in space</h1>
-            <h1>Add some intro text here to describe myself and add in space</h1>
-            <h1>Add some intro text here to describe myself and add in space</h1>
           </Cell>
           <Cell col={12}>
             <div className="bannerText">
