@@ -12,55 +12,55 @@
 
 @media (max-width: 1000px) {
   .bannerText {
-      font-size: 9px;
+      font-size: 7px;
   }
 }
 
 @media (min-width: 900px) {
     .bannerText {
-        font-size: 9px;
+        font-size: 7px;
     }
 }
 
 @media (min-width: 850px) {
     .bannerText {
-        font-size: 9px;
+        font-size: 7px;
     }
 }
 
 @media (min-width: 800px) {
     .bannerText {
-        font-size: 9px;
+        font-size: 7px;
     }
 }
 
 @media (min-width: 750px) {
     .bannerText {
-        font-size: 8px;
+        font-size: 7px;
     }
 }
 
 @media (max-width: 700px) {
     .bannerText {
-        font-size: 8px;
+        font-size: 7px;
     }
 }
 
 @media (max-width: 650px) {
   .bannerText {
-      font-size: 8px;
+      font-size: 7px;
   }
 }
 
 @media (max-width: 600px) {
   .bannerText {
-      font-size: 7px;
+      font-size: 6px;
   }
 }
 
 @media (max-width: 550px) {
   .bannerText {
-      font-size: 7px;
+      font-size: 6px;
   }
 }
 
@@ -97,7 +97,9 @@
 
 
 .profileImage{
-  height: 680px;
+  width: 100%;
+  max-width: 680px;
+  height: auto;
   border-radius: 10px;
 }
 
@@ -130,9 +132,9 @@
 
 .socialLinks {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row;
   justify-content: space-between;
-  max-width: 60%;
+  max-width: 80%;
   margin: auto;
 }
 
