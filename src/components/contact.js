@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
+import { Grid, Cell, List, ListItem } from 'react-mdl';
 import contactLogo from '../assets/profile2.JPG'
 
 class Contact extends Component {
@@ -15,47 +15,43 @@ class Contact extends Component {
               style={{maxHeight: '75%', maxWidth: '75%', borderRadius: '10px'}}
             />          
             <p style={{width: '70%', margin: 'auto', paddingTop: '1em'}}>
-             Contact me for any service that you may need and I will get back to you shortly. Freelance work allows me to enjoy my family and travel at the same time.
+             Right now my focus is on Python and React. I have been building responsive apps using react and then learning how to write algorithms using Python.
             </p>
           </Cell>
-          <Cell col={6}>
+          <Cell className="contactList" col={6}>
             <h2>Contact Me</h2>
             <hr/>
-            <div className="contactList">
+            <div>
               <List>
-
                 <ListItem>
-                  <ListItemContent style={{fontSize: '2em', fontFamily: 'Raleway', color: 'white'}}>
+                  <a style={{fontSize: '30px', fontFamily: 'Raleway', color: 'white'}}>
                     <i className="fa fa-phone-square" aria-hidden="true"/>
                     (949) 554-9676
-                  </ListItemContent>
+                  </a>
                 </ListItem>
-
                 <ListItem>
-                  <ListItemContent style={{fontSize: '2em', fontFamily: 'Raleway', color: 'white'}}>
+                  <a style={{fontSize: '30px', fontFamily: 'Raleway', color: 'white'}}>
                     <a href="google.com" target="_blank" rel="noopener noreferrer">
                       <i className="fa fa-envelope-square" aria-hidden="true"/>
                     </a>
                     contact@jonathandangelo.me
-                  </ListItemContent>
+                  </a>
                 </ListItem>
-
                 <ListItem>
-                  <ListItemContent style={{fontSize: '2em', fontFamily: 'Raleway', color: 'white'}}>
+                  <a style={{fontSize: '30px', fontFamily: 'Raleway', color: 'white'}}>
                     <a href="https://github.com/jonjebo" target="_blank" rel="noopener noreferrer">
                       <i className="fa fa-github" aria-hidden="true"/>
                     </a>
                     github.com/jonjebo
-                  </ListItemContent>
+                  </a>
                 </ListItem>
-
                 <ListItem>
-                  <ListItemContent style={{fontSize: '2em', fontFamily: 'Raleway', color: 'white'}}>
+                  <a style={{fontSize: '30px', fontFamily: 'Raleway', color: 'white'}}>
                   <a href="https://linkedin.com/in/jonathanddangelo" target="_blank" rel="noopener noreferrer">
                       <i className="fa fa-linkedin-square" aria-hidden="true"/>
                     </a>
                     linkedin.com/in/jonathanddangelo
-                  </ListItemContent>
+                  </a>
                 </ListItem>
               </List>
             </div>
