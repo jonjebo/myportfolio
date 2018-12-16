@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
-import Skills from './skills';
 import resumePhoto from '../assets/hiking.JPG'
 
 class Resume extends Component {
@@ -14,7 +13,7 @@ class Resume extends Component {
             <div style={{textAlign: 'center'}}>
               <img
                 src={resumePhoto}
-                alt="resume profile photo"
+                alt="hiking"
                 style={{maxHeight: '100%', maxWidth: '100%', borderRadius: '10px'}}
               />
             </div>
