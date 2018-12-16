@@ -39,7 +39,7 @@
     font-size: 6px;
   }
   .socialLinks {
-    font-size: 9px;
+    font-size: 7px;
   }
 }
 
@@ -48,7 +48,7 @@
     font-size: 6px;
   }
   .socialLinks {
-    font-size: 7px;
+    font-size: 6px;
   }
 }
 
@@ -57,7 +57,7 @@
     font-size: 6px;
   }
   .socialLinks {
-    font-size: 6px;
+    font-size: 5px;
   }
 }
 
@@ -209,7 +209,7 @@
 }
 
 .contactList i {
-  font-size: 150%;
+  font-size: 4vw;
   padding-right: 5rem;
   color: white;
 }

@@ -15,7 +15,7 @@ class Contact extends Component {
               style={{maxHeight: '75%', maxWidth: '75%', borderRadius: '10px'}}
             />          
             <p style={{width: '70%', margin: 'auto', paddingTop: '1em'}}>
-             Right now my focus is on Python and React. I have been building responsive apps using react and then learning how to write algorithms using Python.
+             Please feel free to contact with any projects you may need and I will respond promptly.
             </p>
           </Cell>
           <Cell className="contactList" col={6}>
@@ -24,13 +24,13 @@ class Contact extends Component {
             <div>
               <List>
                 <ListItem>
-                  <a style={{fontSize: '30px', fontFamily: 'Raleway', color: 'white'}}>
+                  <a style={{fontSize: '1.5vw', fontFamily: 'Raleway', color: 'white'}}>
                     <i className="fa fa-phone-square" aria-hidden="true"/>
                     (949) 554-9676
                   </a>
                 </ListItem>
                 <ListItem>
-                  <a style={{fontSize: '30px', fontFamily: 'Raleway', color: 'white'}}>
+                  <a style={{fontSize: '1.5vw', fontFamily: 'Raleway', color: 'white'}}>
                     <a href="google.com" target="_blank" rel="noopener noreferrer">
                       <i className="fa fa-envelope-square" aria-hidden="true"/>
                     </a>
@@ -38,7 +38,7 @@ class Contact extends Component {
                   </a>
                 </ListItem>
                 <ListItem>
-                  <a style={{fontSize: '30px', fontFamily: 'Raleway', color: 'white'}}>
+                  <a style={{fontSize: '1.5vw', fontFamily: 'Raleway', color: 'white'}}>
                     <a href="https://github.com/jonjebo" target="_blank" rel="noopener noreferrer">
                       <i className="fa fa-github" aria-hidden="true"/>
                     </a>
@@ -46,7 +46,7 @@ class Contact extends Component {
                   </a>
                 </ListItem>
                 <ListItem>
-                  <a style={{fontSize: '30px', fontFamily: 'Raleway', color: 'white'}}>
+                  <a style={{fontSize: '1.5vw', fontFamily: 'Raleway', color: 'white'}}>
                   <a href="https://linkedin.com/in/jonathanddangelo" target="_blank" rel="noopener noreferrer">
                       <i className="fa fa-linkedin-square" aria-hidden="true"/>
                     </a>
