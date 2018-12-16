@@ -21,7 +21,7 @@ class Landing extends Component {
               <hr/>
 
               <p>
-              React | JavaScript | NodeJS | Express | MongoDB | MySQL | HTML/CSS
+              React | Python | JavaScript | NodeJS | Express | MongoDB | MySQL | HTML/CSS
               </p>
 
               <div className="socialLinks">
