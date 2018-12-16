@@ -1,91 +1,88 @@
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   .bannerText {
-      font-size: 9px;
+    font-size: 9px;
+  }
+  .socialLinks {
+    font-size: 10px;
   }
 }
 
-@media (max-width: 1100px) {
+@media screen and (max-width: 1024px) {
   .bannerText {
-      font-size: 9px;
+    font-size: 9px;
+  }
+  .socialLinks {
+    font-size: 10px;
   }
 }
 
-@media (max-width: 1000px) {
+@media screen and (min-width: 900px) {
   .bannerText {
-      font-size: 7px;
+    font-size: 7px;
+  }
+  .socialLinks {
+    font-size: 9px;
   }
 }
 
-@media (min-width: 900px) {
-    .bannerText {
-        font-size: 7px;
-    }
-}
-
-@media (min-width: 850px) {
-    .bannerText {
-        font-size: 7px;
-    }
-}
-
-@media (min-width: 800px) {
-    .bannerText {
-        font-size: 7px;
-    }
-}
-
-@media (min-width: 750px) {
-    .bannerText {
-        font-size: 7px;
-    }
-}
-
-@media (max-width: 700px) {
-    .bannerText {
-        font-size: 7px;
-    }
-}
-
-@media (max-width: 650px) {
+@media screen and (min-width: 768px) {
   .bannerText {
-      font-size: 7px;
+    font-size: 7px;
+  }
+  .socialLinks {
+    font-size: 9px;
   }
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .bannerText {
-      font-size: 6px;
+    font-size: 6px;
+  }
+  .socialLinks {
+    font-size: 9px;
   }
 }
 
-@media (max-width: 550px) {
+@media screen and (max-width: 480px) {
   .bannerText {
-      font-size: 6px;
+    font-size: 6px;
+  }
+  .socialLinks {
+    font-size: 7px;
   }
 }
 
-@media (max-width: 500px) {
+@media screen and (max-width: 320px) {
   .bannerText {
-      font-size: 6px;
+    font-size: 6px;
+  }
+  .socialLinks {
+    font-size: 6px;
   }
 }
 
 .header-color {
-  background: #232526;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #232526;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #414345, #232526);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #414345, #232526);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-family: 'Raleway', sans-serif;
 }
 
-.drawerText{
+.drawerText {
   font-family: 'Raleway', sans-serif;
 }
 
 
 .landing-grid {
-  background: #232526;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #232526;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #414345, #232526);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #414345, #232526);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   position: relative;
   top: 0;
@@ -96,7 +93,7 @@
 }
 
 
-.profileImage{
+.profileImage {
   width: 100%;
   max-width: 680px;
   height: auto;
@@ -104,7 +101,7 @@
 }
 
 .bannerText {
-  background-color: black ;
+  background-color: black;
   opacity: .8;
   max-width: 75%;
   margin: auto;
@@ -144,7 +141,24 @@
   padding: .5em;
 }
 
-.projectsGrid {
+/*Projects Page Css */
+.projectsGridLeft {
+  display: flex;
+  max-width: 75%;
+  text-align: center;
+  margin: auto;
+  font-family: 'Raleway', sans-serif;
+}
+
+.projectsGridCenter {
+  display: flex;
+  max-width: 75%;
+  text-align: center;
+  margin: auto;
+  font-family: 'Raleway', sans-serif;
+}
+
+.projectsGridRight {
   display: flex;
   max-width: 75%;
   text-align: center;
@@ -170,15 +184,15 @@
   justify-content: center;
   width: 80%;
   max-height: 100%;
-  background:  #27221F;
-  color:white;
+  background: #27221F;
+  color: white;
   margin-bottom: 20px;
   border-radius: 10px;
 }
 
 .contactGrid h2 {
   font-family: 'Raleway', sans-serif;
-  color:white;
+  color: white;
 }
 
 .contactGrid p {
@@ -195,7 +209,7 @@
 }
 
 .contactList i {
-  font-size: 66px;
+  font-size: 150%;
   padding-right: 5rem;
   color: white;
 }
@@ -205,7 +219,8 @@
 /*Resume Page Css*/
 .resumeRightCol {
   background: #27221F;
-  color:white;
+  color: white;
+  font-family: 'Raleway', sans-serif;
   padding: 2em;
   border-radius: 10px;
 }
@@ -218,4 +233,13 @@
 
 .resumeLeftCol p {
   font-size: 18px;
+}
+
+/*About Me Page Css*/
+.aboutMeCol {
+  background: #27221F;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  padding: 1em;
+  border-radius: 10px;
 }

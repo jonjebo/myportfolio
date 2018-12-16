@@ -28,8 +28,6 @@ class Resume extends Component {
               suit the needs of myself and others. 
             </p>
             <hr style={{borderTop: '3px dotted #833fb2', width: '100%'}}/>
-            <h5>Address</h5>
-            <p>1 Hacker Way Menlo Park, 94025</p>
             <h5>Phone</h5>
             <p>(949) 554-9676</p>
             <h5>Email</h5>
@@ -45,94 +43,89 @@ class Resume extends Component {
               startYear={2007}
               endYear={2009}
               schoolName="Bowling Green State University"
-              schoolDescription="Put in some information about shcool here"
+              schoolDescription="I attended this university my final two years of high school as a way to get a jumpstart on college. During those two years I studied Mechanical Engineering and maintained a 3.5 GPA"
             />
 
             <Education
               startYear={2011}
               endYear={2015}
               schoolName="Colorado State University"
-              schoolDescription="Put in some information about shcool here"
+              schoolDescription="My undergraduate degree was in Health and Exercise Science with a concentration in Sports Medicine"
+            />
+
+            <Education
+              startYear={2018}
+              endYear={2018}
+              schoolName={"University of California - Irvine"}
+              schoolDescription={"I attended a 12 week full-stack coding bootcamp where I learned: HTML, CSS, JavaScript, jQuery, Node.js, Express, MySQL, Handlebars, Mongoose, and React"}
             />
             <hr style={{borderTop: '3px dotted white'}}/>
+            
             <h2>Experience</h2>
+          
           <Experience
-            startYear={2005}
-            endYear={2012}
-            jobName="First Job"
-            jobDescription="Do some job descriptions"
+            startYear={"Mar 2017"}
+            endYear={"Present"}
+            jobLocation="Driftwood Kitchen"
+            jobName="Bartender"
+            jobDescription="Mixologist that provides customers with custom cocktails on demand but can also create new and exciting drinks to bring in new customers accounting for a 5% revenue growth each year."
           />
-
+          <p></p>
           <Experience
-            startYear={2005}
-            endYear={2012}
-            jobName="First Job"
-            jobDescription="Do some job descriptions"
+            startYear={"Sept 2017"}
+            endYear={"Present"}
+            jobLocation="Apple"
+            jobName="Technical Expert"
+            jobDescription="My daily work consists of repairing customers iPhones as well as their thoughts about our products so that we can continue to be the best brand in consumer electronics."
           />
-
+          <p></p>
           <Experience
-            startYear={2005}
-            endYear={2012}
-            jobName="First Job"
-            jobDescription="Do some job descriptions"
+            startYear={"Jan 2017"}
+            endYear={"Sep 2017"}
+            jobLocation="Equinox"
+            jobName="Personal Trainer"
+            jobDescription="National Academy of Sports Medicine (NASM) trainer that implemented proven exercise routines to keep each client on target with their goals and provided them with quantitative results at the end of each month."
           />
-
+          <p></p>
           <Experience
-            startYear={2005}
-            endYear={2012}
-            jobName="First Job"
-            jobDescription="Do some job descriptions"
+            startYear={"Jan 2016"}
+            endYear={"Jan 2017"}
+            jobLocation="Minnich Manufacturing"
+            jobName="Computer Numerical Control Machinist"
+            jobDescription="Adjusted program design, technique and tooling for Haas CNC Lathes which reduced production times by 50% while eliminating loss by 20%"
           />
-
+          <p></p>
           <Experience
-            startYear={2005}
-            endYear={2012}
-            jobName="First Job"
-            jobDescription="Do some job descriptions"
+            startYear={"Mar 2014"}
+            endYear={"Nov 2016"}
+            jobLocation="Custom Auto"
+            jobName="Auto Fabrication"
+            jobDescription="Learned and mastered TIG welding in order to build customers custom cars to increase shop revenue by 10% per year"
           />
-
+          <p></p>
           <Experience
-            startYear={2005}
-            endYear={2012}
-            jobName="First Job"
-            jobDescription="Do some job descriptions"
+            startYear={"Jan 2015"}
+            endYear={"Jan 2016"}
+            jobLocation="Manes Machine and Engineering"
+            jobName="Computer Numerical Control Machinist"
+            jobDescription="Machined complex 5 axis titanium Aerospace parts to tolerances as close as 0.0003” using: Okuma, Deckel Maho, and Cincinnati Magnum CNC Mills"
           />
-          <hr style={{borderTop: '3px dotted white'}}/>
-          <h2>Skills</h2>
-          <Skills 
-            skill="JavaScript: "
-            progress={60}
-            percentage=""
+          <p></p>
+          <Experience
+            startYear={"Sep 2014"}
+            endYear={"Jan 2016"}
+            jobLocation="Colorado State University"
+            jobName="Research Assistant"
+            jobDescription="Assisted Lab Managers, Ph.D students, and doctors with each step in a lab experiment. Which included: arterial line catheter setups/prep, mixture and Infusion of drugs, as well as data and blood analysis"
           />
-          <Skills 
-            skill="HTML/CSS: "
-            progress={80}
-            percentage=""
+          <p></p>
+          <Experience
+            startYear={"Mar 2012"}
+            endYear={"Aug 2016"}
+            jobLocation="Pelican Lakes"
+            jobName="Bartender"
+            jobDescription="Provided fast paced bartending services to 500+ guests per shift, as well as consistently exceeded sales goals in personal bar sales"
           />
-          <Skills 
-            skill="React: "
-            progress={20}
-            percentage=""
-          />
-          <Skills 
-            skill="MySQL: "
-            progress={20}
-            percentage=""
-          />
-          <Skills 
-            skill="JavaScript: "
-            progress={30}
-            percentage=""
-          />
-          <Skills 
-            skill="JavaScript: "
-            progress={30}
-            percentage=""
-          />
-
-              
-
-
           </Cell>
         </Grid>
       </div>

@@ -25,14 +25,14 @@ class Contact extends Component {
               <List>
 
                 <ListItem>
-                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Raleway', color: 'white'}}>
+                  <ListItemContent style={{fontSize: '2em', fontFamily: 'Raleway', color: 'white'}}>
                     <i className="fa fa-phone-square" aria-hidden="true"/>
                     (949) 554-9676
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
-                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Raleway', color: 'white'}}>
+                  <ListItemContent style={{fontSize: '2em', fontFamily: 'Raleway', color: 'white'}}>
                     <a href="google.com" target="_blank" rel="noopener noreferrer">
                       <i className="fa fa-envelope-square" aria-hidden="true"/>
                     </a>
@@ -41,7 +41,7 @@ class Contact extends Component {
                 </ListItem>
 
                 <ListItem>
-                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Raleway', color: 'white'}}>
+                  <ListItemContent style={{fontSize: '2em', fontFamily: 'Raleway', color: 'white'}}>
                     <a href="https://github.com/jonjebo" target="_blank" rel="noopener noreferrer">
                       <i className="fa fa-github" aria-hidden="true"/>
                     </a>
@@ -50,7 +50,7 @@ class Contact extends Component {
                 </ListItem>
 
                 <ListItem>
-                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Raleway', color: 'white'}}>
+                  <ListItemContent style={{fontSize: '2em', fontFamily: 'Raleway', color: 'white'}}>
                   <a href="https://linkedin.com/in/jonathanddangelo" target="_blank" rel="noopener noreferrer">
                       <i className="fa fa-linkedin-square" aria-hidden="true"/>
                     </a>
