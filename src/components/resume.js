@@ -14,7 +14,7 @@ class Resume extends Component {
               <img
                 src={resumePhoto}
                 alt="hiking"
-                style={{maxHeight: '100%', maxWidth: '100%', borderRadius: '10px'}}
+                style={{marginTop: '30px', maxHeight: '100%', maxWidth: '100%', borderRadius: '10px'}}
               />
             </div>
 
