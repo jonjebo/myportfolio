@@ -20,13 +20,13 @@ class Resume extends Component {
 
             <h2 style={{paddingTop: '2em'}}>Jonathan Dangelo</h2>
             <h4 style={{color: '#696969'}}>Software Engineer</h4>
-            <hr style={{borderTop: '3px dotted #833fb2', width: '100%'}}/>
+            <hr style={{borderTop: '3px dotted rgb(255, 0, 0)', width: '100%'}}/>
             <p>
               I am a software engineer that spends my time learning as much about React to develop very immersive web pages for clients and myself. 
               While learning React, I am also teaching myself Python and Swift so that I can build iPhone apps and machine learning software to 
               suit the needs of myself and others. 
             </p>
-            <hr style={{borderTop: '3px dotted #833fb2', width: '100%'}}/>
+            <hr style={{borderTop: '3px dotted rgb(255, 0, 0)', width: '100%'}}/>
             <h5>Phone</h5>
             <p>(949) 554-9676</p>
             <h5>Email</h5>

@@ -114,6 +114,10 @@
   border-radius: 10px;
 }
 
+.material-icons {
+  color:rgb(255, 0, 0);
+}
+
 .bannerText h1 {
   font-size: 8em;
   color: white;
