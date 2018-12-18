@@ -14,11 +14,11 @@ class Resume extends Component {
               <img
                 src={resumePhoto}
                 alt="hiking"
-                style={{marginTop: '30px', maxHeight: '100%', maxWidth: '100%', borderRadius: '10px'}}
+                style={{marginTop: '30px', maxHeight: '100%', maxWidth: '100%', borderRadius: '10px', border: '2px solid black'}}
               />
             </div>
 
-            <h2 style={{paddingTop: '2em'}}>Jonathan Dangelo</h2>
+            <h2 style={{paddingTop: '1em'}}>Jonathan Dangelo</h2>
             <h4 style={{color: '#696969'}}>Software Engineer</h4>
             <hr style={{borderTop: '3px dotted rgb(255, 0, 0)', width: '100%'}}/>
             <p>
